@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    color: #4a148c;
+    overflow-x: auto;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.semesters {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.semester {
+    min-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e1bee7;
+    border-radius: 8px;
+}
+
+.course {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #d1c4e9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.course:hover {
+    background-color: #b39ddb;
+}
+
+.course.approved {
+    background-color: #7e57c2;
+    color: white;
+}
+
+.credits {
+    margin-top: 20px;
+    text-align: center;
+}
